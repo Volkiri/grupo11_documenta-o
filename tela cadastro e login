@@ -1,0 +1,172 @@
+HTML
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>CADASTRO_USUÁRIOS</title>
+  </head>
+
+  <body>
+    <div class="bloco-formulario">
+
+      <form action="/" id="form-cadastro-1">
+	  <center>
+        <div id="titulo"><b>CADASTRO</b></div>
+		</center>
+		
+		
+
+        <div class="div-input">
+          <span class="label-input">Nome:</span>
+          <input class="input-cadastro" type="text" required maxlength="60" placeholder="">
+		  
+        </div>
+
+        <div class="div-input">
+          <span class="label-input">sobrenome:</span>
+          <input class="input-cadastro" type="text" required maxlength="60" placeholder="">
+        </div>
+        <div class="div-input">
+          <span class="label-input">número de telefone:</span>
+          <input class="input-cadastro" type="text" required maxlength="60" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="">
+        </div>
+        <div class="div-input">
+          <span class="label-input">E-mail:</span>
+          <input class="input-cadastro" type="password" required minlength="6" placeholder="">
+        </div>
+        <div class="div-input">
+          <span class="label-input">senha:</span>
+          <input class="input-cadastro" type="text" required pattern="\d{11}" placeholder="">
+        </div>
+
+        <div>
+		 <center>
+          <button id="btn-cadastrar" type="submit">CADASTRAR</button>
+		   </center>
+        </div>
+	  
+      </form> 	
+	  </div>
+
+
+
+    <div class="bloco-formulario">
+      <form action="/" id="form-cadastro-2" >
+		<center>
+       
+		
+		<div id="titulo1"><b>login</b></div>
+
+        <div class="div-input">
+          <span class="label-input">E-mail:</span>
+          <input class="input-cadastro" type="text" required maxlength="60" placeholder="">
+        </div>
+
+        <div class="div-input">
+          <span class="label-input">senha:</span>
+		
+          <input class="input-cadastro" type="text" required maxlength="60" placeholder="">
+        		
+        </div>
+		  
+
+        <div>
+          <button id="batn-cadastrar" type="submit">login</button>
+		  
+			
+        </div>
+		 </center>
+
+      </form>
+	  </div>
+
+
+  </body>
+
+</html>
+
+CSS
+
+body{
+	font-family: arial;
+}
+form{
+    width: 600px;
+	height: auto;
+    padding: 20px;
+	background-color: #a3a3a3;
+	border-radius: 5px;
+}
+.bloco-formulario{
+	display: inline-flex !important;
+}
+
+#titulo{
+	margin: 0 0 20px 0;
+	letter-spacing: 2px;
+	text-align: center
+	color: white;
+	color: #FFFFFF;
+	width: 220px;
+	height: 30px;
+	border-radius: 50px 50px 50px 50px;
+	background-color: #000000;
+	border-color: #000000;
+
+}
+
+#titulo1{
+	margin: 0 0 20px 0;
+	letter-spacing: 2px;
+	text-align: center
+	color: white;
+	color: #FFFFFF;
+	width: 220px;
+	height: 30px;
+	border-radius: 50px 50px 50px 50px;
+	background-color: #000000;
+	border-color: #000000;
+
+}
+.div-input{
+	display: flex;
+	margin-bottom: 10px;
+}
+.label-input{
+	width: 150px;
+	padding: 10px 15px 0 15px;
+	color: white;
+}
+.input-cadastro{
+    width: 350px;
+    height: 35px;
+	padding-left: 5px;
+	border: none;
+	border-radius: 0px 3px 3px 0px;
+	font-size: 12px;
+}
+.input-foto{
+	display: block;
+	padding-top: 10px;
+}
+#batn-cadastrar{
+	width: 220px;
+    height: 30px;
+	background-color: #000000;
+	border-color: #000000;
+	border-radius:  50px 50px 50px 50px;
+	border-style: solid;
+	color: white;
+	font-size: 11px;
+}
+#btn-cadastrar{
+	width: 220px;
+    height: 30px;
+	background-color: #000000;
+	border-color: #000000;
+	border-radius:  50px 50px 50px 50px;
+	border-style: solid;
+	color: white;
+	font-size: 11px;
+}
