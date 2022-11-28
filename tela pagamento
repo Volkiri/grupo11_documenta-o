@@ -1,0 +1,155 @@
+HTML
+
+<!DOCTYPE html>
+<html>
+
+<body>
+	
+	<header>
+
+		<div id="icon-Foz">
+		fast car ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤpt-br
+
+			
+	
+		
+		</div>
+		
+		<div id="icon-planeta">
+			</div>
+		
+		    <img src="https://i.imgur.com/23VNBfl.png" width="20px" height="20px">
+			
+		</header>
+		<form>
+  
+
+		<span>
+ 
+    <center>
+    	
+
+<html>
+<head>
+	<title>FORMAS DE PAGAMENTO</title>
+	<script src="https://kit.fontawesome.com/d86df33570.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="bloco-login">
+
+	<div id="titulo">FORMAS DE PAGAMENTO</div>
+	
+	<div 
+	class="div-input">
+		<input class="input-login" type="text" placeholder="pix">
+  	</div>
+	
+	<div 
+	class="div-input">
+		<input class="input-login" type="text" placeholder="cartão">
+  	</div>
+	
+    <div
+	class="div-input">
+    	<input class="input-login" type="password" maxlength="6" placeholder="dinheiro">
+    </div>
+    <div>
+	
+
+    </div>
+	
+</div>
+
+</body>
+</html>
+
+CSS
+
+body {
+  background-color: #ffffff;
+}
+header {
+  display: flex;
+  background-color: #000000;
+  margin: 0px 0px 10px 0px;
+}
+
+#icon-Foz {
+  display: inline-block;
+  margin: 0px 0px 0px 0px;
+  font-family: arial;
+  font-size: 20px;
+  color: WHITE;
+}
+
+
+#icon-flexa {
+  display: inline-block;
+  margin: 20px 0px 0px 120px;
+}
+
+
+#icon-planeta {
+  display: inline-block;
+  margin: 5px 0px 0px 30px;
+}
+body{
+	text-align: left;
+	font-family: negrito;
+}
+#bloco-login{
+	margin: 0 auto;
+    background-color: #000000;
+    border-radius: 5px;
+    width: 431px;
+    height: 280px;
+    text-align: center;
+}
+#titulo{
+	margin: 0 0 20px 0;
+	letter-spacing: 2px;
+	color: #ffffff
+}
+.div-input{
+	display: block;
+	margin-bottom: 1px;
+}
+.input-login{
+    width: 180px;
+    height: 35px;
+	padding-left: 5px;
+	border: none;
+	border-radius: 0 3px 3px 0;
+	font-size: 12px;
+}
+.icon-login{
+	padding: 10px 15px 0 15px;
+	border-radius: 3px 0 0 3px;
+	color: white;
+	background-color: #FAA635;
+}
+#btn-acessar{
+	width: 220px;
+    height: 30px;
+	background-color: #0C9ABE;
+	border-color: #0C9ABE;
+	border-radius: 3px;
+	border-style: solid;
+	color: white;
+	font-size: 11px;
+}
+
+#link-esqueceu{
+	padding-top: 10px;
+	font-size: 13px;
+	color: white;
+}
+margin: 0 auto;
+    background-color: #314D85;
+    border-radius: 5px;
+    width: 431px;
+    height: 280px;
+    /* padding: 58px; */
+    text-align: center;
+
